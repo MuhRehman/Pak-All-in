@@ -313,7 +313,8 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #00944A;
+	background: rgba(11, 126, 11, 0.5);
+	/* background: #00944A; */
 	content: '';
 	z-index: -1;
 	-webkit-transition: all 600ms cubic-bezier(.25,.62,.27,.99);
@@ -358,8 +359,10 @@ section
 .header.scrolled
 {
 	height: 120px;
-	background: #00944A;
+	background: rgba(11, 126, 11, 0.5);
+	/* background: #00944A; */
 	border: none;
+	/* opacity: 0.3; */
 }
 .header_container
 {
@@ -381,7 +384,11 @@ section
 }
 .logo
 {
-	text-align: center;
+	text-align: center;;
+}
+.logo img
+{
+	width: 40% !important;
 }
 .logo span
 {
@@ -434,7 +441,9 @@ section
 /*********************************
 4.3 Phone Home
 *********************************/
-
+.logo img {
+    width: 40% !important;
+}
 .phone_home
 {
 	width: auto;
@@ -1258,6 +1267,18 @@ section
 	color: #FFFFFF;
 }
 
+/*********************************
+14.1 Custom-style -Start
+*********************************/
+
+
+
+.logo img {
+	width: 60%;
+}
+/*********************************
+14.1 Custom-style -End
+*********************************/
 /*********************************
 14.1 Footer - About
 *********************************/

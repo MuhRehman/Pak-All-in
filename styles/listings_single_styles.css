@@ -264,11 +264,14 @@ section
 	width: 100%;
 	margin-top: 221px;
 }
+.logo img {
+    width: 40% !important;
+}
 .home_title
 {
 	display: inline-block;
 	height: 31px;
-	background: #fd784f;
+	background: #D3AE29;
 }
 .home_title h2
 {
@@ -330,7 +333,7 @@ section
 .header.scrolled
 {
 	height: 120px;
-	background: #0e1d41;
+	background: rgba(11, 126, 11, 0.5);
 	border: none;
 }
 .header_container
@@ -1163,11 +1166,10 @@ section
 12. Newsletter
 *********************************/
 
-.newsletter
-{
-	padding-top: 76px;
-	padding-bottom: 99px;
-	background: #0e1d41;
+.newsletter {
+    padding-top: 76px;
+    padding-bottom: 99px;
+    background: #00944A;
 }
 .newsletter_title
 {
