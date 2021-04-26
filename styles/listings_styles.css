@@ -575,7 +575,7 @@ section
 .search_box_content
 {
 	width: 100%;
-	background: #0e1d41;
+	background: #1a1a1a;
 	padding-bottom: 81px;
 }
 .search_box_inner
@@ -1029,7 +1029,7 @@ section
 }
 .listing_item_inner:hover .featured_card_box
 {
-	background: #1e2c4e;
+	background: #1a1a1a;
 }
 .listings_nav
 {
