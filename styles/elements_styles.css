@@ -859,10 +859,9 @@ section
 9. Credits
 *********************************/
 
-.credits
-{
-	background: #040b1d;
-	text-align: center;
+.credits {
+    background: #013314;
+    text-align: center;
 }
 .credits span
 {

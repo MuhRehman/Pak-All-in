@@ -1150,7 +1150,7 @@ section
 }
 .newsletter_email:focus
 {
-	outline: solid 2px #fd784f;
+	outline: solid 2px #D3AE29;
 }
 .newsletter_email::-webkit-input-placeholder
 {
@@ -1225,7 +1225,7 @@ section
 	top: 0;
 	left: 0;
 	height: 58px;
-	background: #00944A;
+	/* background: #00944A; */
 	z-index: 10;
 }
 .weekly_offer_icon
@@ -1313,7 +1313,7 @@ section
 	display: inline-block;
 	width: 31px;
 	height: 31px;
-	border: solid 2px #fd784f;
+	border: solid 2px #D3AE29;
 	border-radius: 50%;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -1417,7 +1417,7 @@ section
 	margin-bottom: 9px;
 	height: 38px;
 	padding-left: 17px;
-	color: #fd784f;
+	color: #D3AE29;
 }
 .input_field:focus
 {
@@ -1538,10 +1538,9 @@ section
 15. Credits
 *********************************/
 
-.credits
-{
-	background: #013314;
-	text-align: center;
+.credits {
+    background: #013314;
+    text-align: center;
 }
 .credits span
 {
